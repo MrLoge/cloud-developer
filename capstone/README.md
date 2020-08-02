@@ -32,7 +32,7 @@ path: photos
 This handler returns all photos bookmarked for the logged-in user. This can be used for the UI to show a list of Favorite-Photos which can then be attached to a specific ToDo.
 
 
-##UpdateTodo
+## UpdateTodo
 path: todos/{todoId}
 
 This handler was updated to accept a attachmentUrl. This allows a workflow to search for nice photos from Unsplash.com via the SearchPhotos, bookmark some and then attach one of them to a specific Todo.
