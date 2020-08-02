@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "storePhoto",
+    "type": "object",
+    "properties": {
+      "photoId": {
+        "type": "string"
+      },
+      "thumbUrl": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "photographerName": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "photoId",
+      "thumbUrl",
+      "description",
+      "photographerName"
+    ],
+    "additionalProperties": false
+  }
+  
